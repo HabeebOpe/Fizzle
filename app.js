@@ -30,7 +30,7 @@ function scroll(){
      body.classList.remove("retweetpop")
    }
    const btn = document.querySelector(".btn");
-   if(scrollValue < 150){
+   if(scrollValue < 50){
        body.classList.remove("navdis")
    }
    else{

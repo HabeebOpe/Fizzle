@@ -253,20 +253,6 @@ body.navdis .nav-bar{
   font-size: 14px;
   color: var(--text-color);
 }
-/*
-.share-sec ul li .fa-image{
-  color: blue;
-}
-.share-sec ul li .fa-video{
-  color: red;
-}
-.share-sec ul li .fa-location{
-  color: green;
-}
-.share-sec ul li .fa-smile{
-  color: orange;
-}
-*/
 .share-sec ul li button{
   width: 80px;
   height: 30px;
@@ -278,17 +264,13 @@ body.navdis .nav-bar{
   margin-right: 5px;
 }
 .share-sec ul li button:hover{
-  background: var(--light);
-  border: 2px solid rgba(225, 225, 0, 0.4);
+  border: 3px solid #E3B604;
 }
 @media(min-width: 620px){
   .share-sec ul{
     width: 70%;
   }
 }
-
-
-
 
 
 
@@ -1126,12 +1108,6 @@ body.open-notification .notification-sec{
   background: var(--primary-color);
   /*border-left: 0.3px solid #000;
   border-bottom: 0.3px solid #000;*/
-}
-.botnav ul li:nth-child(1){
-  background: rgba(225, 225, 0, 0.4);
-}
-.botnav ul li:nth-child(1) span i{
-  color: var(--primary-color);
 }
 body.message-active .botnav ul li:nth-child(4){
   background: rgba(225, 225, 0, 0.4);
