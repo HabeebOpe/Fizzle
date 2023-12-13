@@ -446,15 +446,6 @@ body.show-nav .sidenav{
   padding: 8px;
   overflow: scroll;
 }
-.app-name{
-  margin: 5px 0 10px 0;
-  padding: 15px 10px;
-  border-radius: 10px;
-  background: var(--light);
-}
-.app-name h2{
-  color: var(--text-color);
-}
 .user-profile{
   width: 100%;
   border-radius: 10px;
@@ -580,10 +571,6 @@ body.show-nav .sidenav{
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #000;
 }
-.side-right-sec .notification-head{
-  padding: 5px 10px;
-  margin-top: 80px;
-}
 
 /*---------NOTIFICATION SECTION-----------*/
 .right-slide{
@@ -599,6 +586,7 @@ body.show-nav .sidenav{
   border-radius: 10px;
   overflow: scroll;
   height: auto;
+  margin-top: 60px;
 }
 .message-content ul li{
   display: flex;
@@ -876,8 +864,7 @@ body.open-notification .notification-sec{
     border-radius: 20px 0 0 20px;
     overflow: hidden;
     background: var(--light);
-    right: -100%;
-    transform: translateY(100%);
+    right: -120%;
     z-index: 9;
     transition: right 0.5s ease;
   }
@@ -966,7 +953,7 @@ body.open-notification .notification-sec{
   }
 }
 .fr-request{
-  margin-top: 25px;
+  margin-top: 15px;
 }
 .fr-request h4{
   padding: 5px;
@@ -1362,7 +1349,7 @@ body.open-theme .theme-swith-flex{
   height: 100vh;
   width: 100%;
   background: var(--light);
-  top: -100%;
+  top: -120%;
   z-index: 9;
   transition: top 0.5s linear;
 }
