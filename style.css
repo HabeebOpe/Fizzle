@@ -1818,7 +1818,10 @@ body.review-mag .img-review-flex {
 }
 
 .img-review-flex .img-review-bak {
-  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20% 10%;
 }
 
 .review-back {
@@ -1851,11 +1854,13 @@ body.review-mag .img-review-flex {
   font-size: 18px;
   color: #fff;
 }
-
-.img-review-flex .img-review-bak img {
+.img-review-flex .img-review-bak .review-position{
+  max-width: 500px;
+  max-height: 500px;
+}
+.review-position img {
   width: 100%;
-  height: auto;
-  transition: 0.2s ease;
+  
 }
 
 @media(max-width: 620px) {
