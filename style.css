@@ -948,6 +948,8 @@ body.open-notification .notification-sec {
   max-width: 100%;
   height: 20px;
   margin-top: 5px;
+  font-size: 11px;
+  color: var(--hover-thick);
   overflow: hidden;
 }
 
@@ -968,7 +970,7 @@ body.open-notification .notification-sec {
 }
 
 body.open-message .message-sec-mobile {
-  right: 23%;
+  right: 22%;
 }
 
 .message-sec-mobile .message-sec-mobile-div {
@@ -1057,7 +1059,7 @@ body.open-message .message-sec-mobile {
   }
 
   .chat .chat-message p {
-    font-size: 13px;
+    font-size: 11px;
     max-width: 100%;
     height: 20px;
     color: var(--hover-thick);
@@ -1337,7 +1339,7 @@ body.notification-active .botnav ul li:nth-child(5) span i {
 
 .post-name .po-name p {
   font-size: 11px;
-  color: var(--nav-click);
+  color: var(--text-color);
 }
 
 .po-list li .posted {

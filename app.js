@@ -46,7 +46,6 @@ function scroll() {
 }
 window.addEventListener("scroll", scroll)
 
-
 /*------------IMAGE REVIEW SCRIPT-----------*/
 const img = document.querySelectorAll("img")
 const mage = document.querySelector(".mage")
