@@ -22,9 +22,9 @@
 }
 
 body.dark {
-  --body-color: #37383E;
-  --light: #0F0F11;
-  --light-grey: #353538;
+  --body-color: #0F0F0F;
+  --light: #000000;
+  --light-grey: #111111;
   --text-color: #fff;
   --right-back: #37383E;
   --left-back: #37383E;
@@ -32,12 +32,12 @@ body.dark {
 }
 
 body.dim {
-  --body-color: #41436D;
-  --light: #0E0225;
-  --light-grey: #403C5E;
+  --body-color: #101724;
+  --light: #151D2B;
+  --light-grey: #142035;
   --text-color: #fff;
-  --right-back: #41436D;
-  --left-back: #41436D;
+  --right-back: #101724;
+  --left-back: #101724;
   transition: 0.3s ease;
 }
 
@@ -1140,8 +1140,11 @@ body.open-message .message-sec-mobile {
 .story-section .story {
   min-width: 90px;
   height: 130px;
-  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 2px;
+  
   overflow: hidden;
   position: relative;
 }
@@ -1150,21 +1153,23 @@ body.open-message .message-sec-mobile {
   position: absolute;
   top: 5px;
   left: 5px;
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
 }
 
 .story .story-pro img {
-  background-size: cover;
-  width: 30px;
-  height: 30px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   border: 1px solid var(--light);
 }
 
-.story img {
-  width: 100%;
+.story .story-post {
   height: 100%;
-  border-radius: 20px;
   border: 2px solid var(--light);
+  border-radius: 20px;
 }
 
 .story .story-name {
@@ -1345,7 +1350,7 @@ body.notification-active .botnav ul li:nth-child(5) span i {
 }
 
 .po-list li .posted h2 {
-  padding: 0 10px;
+  padding: 10px;
 }
 
 .po-list li .post-des {
@@ -1384,7 +1389,43 @@ body.notification-active .botnav ul li:nth-child(5) span i {
 
 .post-des .react .react-flex span {
   margin-right: 5px;
+
 }
+
+.love:hover {
+  background-color: #FFC8C8;
+}
+
+.love:hover i {
+  color: #FF0808;
+}
+
+.message:hover {
+  background-color: #BAD6FF;
+}
+
+.message:hover i {
+  color: #0067FF;
+}
+
+.retweet:hover {
+  background-color: #A5F4B1;
+}
+
+.retweet:hover i {
+  color: #1D932F;
+}
+
+.share:hover {
+  background-color: #DAC4FF;
+}
+
+.share:hover i {
+  color: #6306FF;
+}
+
+
+
 
 .post-des .likes {
   font-size: 13px;
@@ -1417,7 +1458,6 @@ body.notification-active .botnav ul li:nth-child(5) span i {
 .theme-swith-flex {
   position: fixed;
   top: 0;
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
