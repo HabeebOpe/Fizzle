@@ -7,15 +7,17 @@
 :root {
   --body-color: #E0E0E0;
   --light: #fff;
-  --primary-color: gold;
+  --primary-color: darkorange;
   --secondary-color: #5AC94D;
   --text-color: #000;
   --light-grey: #EFEFEF;
   --nav-click: #000;
   --hover-light: #CECED2;
   --hover-thick: #9E9FAE;
-  --right-back: linear-gradient(30deg, #E0E0E0 70%, #5AC94D);
-  --left-back: linear-gradient(-40deg, #E0E0E0 70%, #FFE700);
+  /*  --right-back: linear-gradient(30deg, #E0E0E0 70%, #5AC94D);
+ --left-back: linear-gradient(-40deg, #E0E0E0 70%, #FFE700); */
+  --right-back: linear-gradient(30deg, #E0E0E0 70%, #753A88);
+  --left-back: linear-gradient(-40deg, #E0E0E0 70%, darkorange);
   --love: #FFCBCB;
   --transition: 0.3s ease;
 
@@ -26,8 +28,8 @@ body.dark {
   --light: #000000;
   --light-grey: #111111;
   --text-color: #fff;
-  --right-back: #37383E;
-  --left-back: #37383E;
+  --right-back: #1A1A1A;
+  --left-back: #1A1A1A;
   transition: 0.3s ease;
 }
 
@@ -39,6 +41,10 @@ body.dim {
   --right-back: #101724;
   --left-back: #101724;
   transition: 0.3s ease;
+}
+
+button {
+  color: #000;
 }
 
 * {
@@ -751,7 +757,7 @@ body.open-notification .notification-sec {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
+  padding: 20px;
   border-top: 2px solid var(--light-grey);
   transition: 0.2s ease;
 }
@@ -772,8 +778,8 @@ body.open-notification .notification-sec {
 }
 
 .notification-cont ul li .noti-img img {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -1144,7 +1150,7 @@ body.open-message .message-sec-mobile {
   align-items: center;
   justify-content: center;
   margin: 0 2px;
-  
+
   overflow: hidden;
   position: relative;
 }
@@ -1338,7 +1344,10 @@ body.notification-active .botnav ul li:nth-child(5) span i {
 }
 
 .po-list li .posted {
-  max-height: 3000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 500px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -1451,9 +1460,11 @@ body.notification-active .botnav ul li:nth-child(5) span i {
   font-size: 13px
 }
 
-.space {
+.space,
+.height {
   height: 10vh;
 }
+
 
 /*--------------THEME SWITH---------------*/
 .theme-swith-flex {
