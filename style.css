@@ -526,7 +526,6 @@ body.show-nav .sidenav {
   border: none;
   background: var(--primary-color);
   font-size: 16px;
-  font-weight: bold;
   color: #000;
   border-radius: 10px;
   margin: 10px 0;
@@ -534,8 +533,7 @@ body.show-nav .sidenav {
 }
 
 .user-profile .my-profile:hover {
-  background: #fff;
-  border: 2px solid var(--primary-color);
+  border: 2px solid #B25B0A;
 }
 
 .side-nav-desk {
@@ -659,12 +657,11 @@ body.show-nav .sidenav {
   background: var(--light);
   font-weight: bold;
   border-bottom: 1px solid var(--light-grey);
-  transition: background 0.3s ease;
+  transition: border-left 0.3s ease;
 }
 
 .message-content ul li:hover {
   border-left: 5px solid var(--primary-color);
-  background: var(--hover-light);
 }
 
 /*-------------NOTIFICATION SECTION(MOBILE)-------------*/
@@ -1100,8 +1097,7 @@ body.open-message .message-sec-mobile {
 }
 
 .request-sec ul li button {
-  width: 40%;
-  height: 35px;
+  padding: 10px;
   border-radius: 10px;
   border: 1px solid #FFAB17;
   font-size: 14px;
