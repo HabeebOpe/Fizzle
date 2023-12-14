@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
 ::-webkit-scrollbar {
   display: none;
@@ -50,7 +50,7 @@ button {
 * {
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -1340,7 +1340,8 @@ body.notification-active .botnav ul li:nth-child(5) span i {
 }
 
 .post-name .po-name p {
-  font-size: 13px;
+  font-size: 11px;
+  color: var(--nav-click);
 }
 
 .po-list li .posted {
